@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Home</a>
+            <a href="#about" style="--vlr:2">About Me</a>
+            <a href="#education" style="--vlr:3">Education</a>
+            <a href="#skills" style="--vlr:4">Skills</a>
+            <a href="#contact" style="--vlr:5">Contact Me</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home"  id="home">
+        <div class="text-content">
+            <h1>I'm Suswanth Sai Thipirishetti</h1>
+            <div class="text-animation">
+                <h2>IT Graduate</h2>
+            </div>
+            <p>Bachelor of Engineering in Information Technology – Completed
+             Motivated and quick-learning graduate with hands-on experience in
+             machine learning, natural language processing, artificial intelligence,
+              generative AI, and web development. Passionate about exploring emerging 
+              technologies and solving real-world problems through innovative solutions.</p>
+            <div class="btn-section">
+                <button class="btn" onclick="scrollToProjects()">My Projects</button>
+                <button class="btn" onclick="scrollToContact()">contact me</button>
+            </div>
+            <div class="social-media">
+                <i class='bx bxl-twitter' style="--vlr:7"></i>
+                <i class='bx bxl-facebook' style="--vlr:8"></i>
+                <i class='bx bxl-youtube' style="--vlr:9"></i>
+            </div>
+        </div>
+        <img src="sai pic.jpg" alt="">
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <img src="sai pic.jpg" alt="" class="aboutImg">
+        <div class="text-content2">
+            <h2>Graduate </h2>
+            <p>I have completed a Bachelor of Engineering in the Information Technology department.
+                 I am a highly motivated individual with a strong desire to learn and explore new 
+                 technologies. I have gained experience in various domains, including machine learning,
+                  natural language processing, artificial intelligence, generative AI, and web development.</p>
+            <button class="btn">Read More</button>
+        </div>
+    </section>
+    <!-- *************************Education Section************************* -->
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <h2>Education</h2>
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2021-25<i class='bx bxs-calendar'></i></div>
+                            <h3>Mvsr Engineering College</h3>
+                            <p>Nadergul,Hyderabad</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2019-21 <i class='bx bxs-calendar'></i></div>
+                            <h3>Vagdevi Junior College</h3>
+                            <p>Kodad,Suryapet</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">-2019 <i class='bx bxs-calendar'></i></div>
+                            <h3>Siddartha High School </h3>
+                            <p>Kodad,Telangana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- *************************Skills Section************************* -->
+    <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Frontend web development</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="skill-content">
+                <h3 class="skill-title">Backend web development</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">Django</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Rest Framework</span>
+                        <span class="topic">60%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Deveops</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-content">
+                <h3 class="skill-title">Programming</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">c Programming</span>
+                        <span class="topic">60%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Java Programming</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Python programming</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-content">
+                <h3 class="skill-title">Technology</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">AIML</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">IOT</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--*****************************projects section*****************************-->
+    <section class="skills" id="project">
+        <div class="container">
+            <h2 class="title">My <span>Projects</span></h2>
+          <div class="project-wrapper">
+            <div class="item">
+              <h3>Emotion based music system</h3>
+              <img src="./img/project-1.jpg" alt="project">
+              <p>During my academic and personal projects, I conceptualized and developed an Emotion-Based Music System that aims to enhance the music listening experience by dynamically selecting and playing music based on the user's emotions. The project leverages emotion recognition algorithms to analyze user input and recommends music that aligns with the detected emotional state.</p>
+            </div>
+            <div class="item">
+              <h3>Fresh detect</h3>
+              <img src="./img/FreshDetect.jpg" alt="project">
+              <p>As part of my journey in the field of computer vision and IoT, I initiated and led the development of Fresh Detect, a system designed to monitor and predict the shelf life of fruits and vegetables. This project addresses the crucial challenge of reducing food waste by providing real-time insights into the freshness of perishable items.</p>
+            </div>
+            <div class="item">
+              <h3> Sentiment Analysis</h3>
+              <img src="C:\Users\suswa\OneDrive\Desktop\portfolio\my-portfolio\img\sentiment.jpg" alt="project">
+              <p>Created a sentiment analysis web app leveraging natural language processing (NLP) to analyze and visualize user 
+feedback in real-time.</p>
+            </div>
+            <div class="item">
+                <h3>Depression.Ai</h3>
+                <img src="./img/bg-banner.jpg" alt="project">
+                <p>Depression.AI, an innovative tool designed to detect depression in users through two distinct approaches: a questionnaire-based assessment and text analysis. Our system utilizes established methods and advanced machine learning techniques to provide accurate and insightful evaluations.</p>
+            </div>
+            <div class="item">  
+                <h3>Virtual Herbal Garden</h3>  
+                <img src="./virtual.webp" alt="project">  
+                <p>Virtual Herbal Garden is an interactive and educational platform that showcases a diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy). The platform provides an immersive experience, allowing users to explore herbal plants, learn about their medicinal properties, and understand their role in holistic wellness.   
+                    
+                </p>  
+            </div>
+            
+          </div>
+        </div>
+      </section> <!-- .sec-completed-projects -->
+    
+    <!-- *************************Contact Section************************* -->
+    <section class="contact" id="contact">
+    <h2 class="title">Contact<span> Me</span></h2>
+
+    <div class="contact-info">
+         <p><strong>Name:</strong> Suswanth Sai Thipirishetti</p>
+        <p><strong>Phone:</strong> <a href="tel:+91 7670883519">+91 7670883519</a></p>
+        <p><strong>Email:</strong> <a href="mailto:suswanth2643@gmail.com">suswanth2643@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/suswanth-sai-2b12a72ba" target="_blank">linkedin.com/in/suswanthsai</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/suswanth2643" target="_blank">github.com/suswanth2643</a></p>
+
+    </div>
+</section>
+</form>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2025 by Suswanth Sai</p>
+        </div>
+       <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
